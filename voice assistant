@@ -1,0 +1,45 @@
+Voice Assistant
+This Voice Assistant is a Python program that utilizes speech recognition and text-to-speech capabilities to understand voice commands and provide responses accordingly. The Voice Assistant is built using the following Python libraries:
+     speech_recognition: For recognizing speech from the microphone input.
+     pyttsx3: For text-to-speech synthesis to provide responses.
+     pywhatkit: For playing songs on YouTube based on user input.
+     datetime: For displaying the current time.
+     wikipedia: For fetching information from Wikipedia.
+     pyjokes: For generating random jokes.
+     webbrowser: For opening web URLs.
+Installation
+     Make sure you have Python installed on your system. You can download it from the official website: https://www.python.org/downloads/
+Install the required Python libraries using pip:
+**************pip install SpeechRecognition pyttsx3 pywhatkit wikipedia pyjokes*************
+Usage
+ Open a text editor or an Integrated Development Environment (IDE) of your choice and paste the provided code into a new Python file (e.g., voice_assistant.py).
+Save the file and run the Python script.
+The Voice Assistant will start listening for voice commands and respond accordingly.
+Supported Commands:
+  The Voice Assistant currently supports the following commands:
+
+  play: Plays a song on YouTube. Example: "Play Shape of You."
+
+  time: Provides the current time. Example: "What's the time now?"
+
+  show me the Nptel exams in july 2023: Opens a link to the Nptel exams timetable for July 2023.
+
+  who the heck is: Searches Wikipedia for information about a person. Example: "Who the heck is Albert Einstein?"
+
+  joke: Tells a random joke.
+
+  hello: Greets the user.
+
+  how are you doing: Responds to the user's well-being.
+
+  bye: Exits the Voice Assistant.
+For any other input not recognized by the above commands, the Voice Assistant will perform a Google search and provide the user with search results.
+Important Note
+    Make sure to have a working microphone connected to your system for the speech recognition to function correctly.
+    The accuracy of voice recognition may vary depending on the ambient noise and microphone quality.
+    The Voice Assistant relies on an internet connection to perform Google searches, fetch Wikipedia information, and play songs on YouTube.
+Contributing
+   If you find any issues or have ideas for improving the Voice Assistant, feel free to open an issue or submit a pull request on the GitHub repository.
+License
+   This Voice Assistant is licensed under the MIT License. You can find the license details in the LICENSE file.
+  Enjoy using the Voice Assistant! If you have any questions or need further assistance, don't hesitate to reach out.
